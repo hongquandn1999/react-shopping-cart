@@ -12,7 +12,7 @@ function App() {
     
 		<Suspense fallback={<div>Loading...</div>}>
 			<BrowserRouter>
-        <Header/>
+        	<Header/>
 				<Switch>
 					<Redirect exact from='/' to='/photos' />
 					<Route path='/photos' component={Photo} />
