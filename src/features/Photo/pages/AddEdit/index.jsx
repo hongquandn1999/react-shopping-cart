@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Banner from '../../../../components/Banner';
+
 import './styles.scss';
-import PhotoForm from '../../components/PhotoForm';
+import PhotoForm from 'features/Photo/components/PhotoForm';
+import Banner from 'components/Banner';
+
 AddEditPage.propTypes = {};
 
 function AddEditPage(props) {
@@ -11,7 +13,7 @@ function AddEditPage(props) {
 			<Banner title='Pick amazing photo 😍😍😍' />
 
 			<div className='photo-edit__form'>
-				<PhotoForm onSubmit={(value) => console.log('Form submit: ', value)} />
+				<PhotoForm />
 			</div>
 		</div>
 	);
