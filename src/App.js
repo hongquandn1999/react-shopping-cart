@@ -1,7 +1,7 @@
 import Header from 'components/Header';
 import NotFound from 'components/NotFound';
 import React, { Suspense } from 'react';
-import { BrowserRouter, Link, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 // lazy load - Code splitting
